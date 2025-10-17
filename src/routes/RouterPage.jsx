@@ -8,13 +8,14 @@ import DistributionExpertise from "../pages/DistributionExpertise";
 import TechnologySolutions from "../pages/TechnologySolutions";
 import IndustriesPage from "../pages/IndustriesPage";
 import ContactPage from "../pages/ContactPage";
+import AboutPage from "../pages/AboutPage";
 
 const RouterPage = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/services" element={<ServicesPage />} />
+        <Route path="/about" element={<AboutPage />} />
          <Route path="services" element={<ServicesPage />} />
         <Route path="contact" element={<ContactPage />} />
 
