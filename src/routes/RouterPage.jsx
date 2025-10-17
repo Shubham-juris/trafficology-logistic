@@ -6,6 +6,8 @@ import WarehousingHeader from "../pages/WarehousingHeader";
 import TransportImageSection from "../pages/TransportImageSection";
 import DistributionExpertise from "../pages/DistributionExpertise";
 import TechnologySolutions from "../pages/TechnologySolutions";
+import IndustriesPage from "../pages/IndustriesPage";
+import ContactPage from "../pages/ContactPage";
 
 const RouterPage = () => {
   return (
@@ -14,7 +16,7 @@ const RouterPage = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
          <Route path="services" element={<ServicesPage />} />
-        {/* <Route path="contact" element={<ContactPage />} /> */}
+        <Route path="contact" element={<ContactPage />} />
 
         <Route path="warehousing-solutions" element={<WarehousingHeader />} />
         <Route
@@ -26,7 +28,7 @@ const RouterPage = () => {
           element={<DistributionExpertise />}
         />
         <Route path="technology-solutions" element={<TechnologySolutions />} />
-        {/* <Route path="industries" element={<IndustriesPage />} /> */}
+        <Route path="industries" element={<IndustriesPage />} />
       </Routes>
     </>
   );
