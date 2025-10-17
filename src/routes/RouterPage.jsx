@@ -1,16 +1,17 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import HomePage from '../pages/HomePage'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import HomePage from "../pages/HomePage";
+import ServicesPage from "../pages/ServicesPage";
 
 const RouterPage = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<HomePage/>}/>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />} />
       </Routes>
     </>
-  )
-}
+  );
+};
 
-export default RouterPage
-
+export default RouterPage;
