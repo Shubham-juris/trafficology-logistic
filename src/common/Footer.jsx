@@ -49,7 +49,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold text-white mb-4">Contact</h3>
           <p className="text-gray-400">📍 Calgary, Canada</p>
           <p className="text-gray-400">📧 info@trafficologylogistics.com</p>
-          <p className="text-gray-400">📞 +1 (123) 456-7890</p>
+          {/* <p className="text-gray-400">📞 +1 (123) 456-7890</p> */}
         </div>
       </div>
 

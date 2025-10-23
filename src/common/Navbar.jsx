@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logoImg from "../assets/navbar/logo.png"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,13 +12,17 @@ function Navbar() {
     { name: "Services", path: "/services", dropdown: true },
     { name: "Industries", path: "/industries" },
     { name: "Contact", path: "/contact" },
-  ];``
+  ];
+  ``;
 
   const servicePages = [
     { name: "Warehousing Solutions", path: "warehousing-solutions" },
     { name: "Transportation Assistance", path: "transportation-assistance" },
     { name: "Distribution Expertise", path: "distribution-expertise" },
-    { name: " Multilateral Technology Solutions", path: "technology-solutions" },
+    {
+      name: " Multilateral Technology Solutions",
+      path: "technology-solutions",
+    },
   ];
 
   return (
@@ -25,9 +30,13 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="text-2xl font-bold text-blue-900">
-            <NavLink to="/">Trafficology Logistics INC</NavLink>
-          </div>
+          <NavLink to="/" className="flex items-center">
+            <img
+              src={logoImg}
+              alt="Trafficology Logistics INC"
+              className="h-14 w-auto"
+            />
+          </NavLink>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8 items-center">

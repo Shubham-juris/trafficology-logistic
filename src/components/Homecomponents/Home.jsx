@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import bgImg from "../../assets/home/hero.jpg"
+import bgImg from "../../assets/home/main.jpg"
 import { Link } from "react-router-dom";
 
 function Home() {

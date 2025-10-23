@@ -10,18 +10,18 @@ const details = [
   {
     title: "Customized Warehouses",
     description:
-      "Our warehouses use advanced security systems to ensure everything stays safe. We control the temperature to suit all types of products, making sure nothing gets spoiled. The inside layout is set up to handle various items efficiently, allowing for easy management. We have strategically chosen key areas across India for our warehouses to maintain logistic centres. This smart placement helps goods move quickly, reducing travel time and preventing delays in inventory movement, high stock of locations, we can satisfy and reliably deliver products to the destinations.",
+      "Our warehouses use advanced security systems to ensure everything stays safe. We control the temperature to suit all types of products, making sure nothing gets spoiled. The inside layout is set up to handle various items efficiently, allowing for easy management. We have strategically chosen key areas across India for our warehouses to maintain logistic centres. This smart placement helps goods move quickly, reducing travel time and preventing delays in inventory movement. With a high stock of locations, we can satisfy and reliably deliver products to their destinations.",
     bullets: [],
   },
   {
     title: "Post-Sale Support",
     description:
-      "Post-sale customer support is logistic is the ongoing assistance activity that Eastern Transaction logistics provides to its customers after they have bought a product. We aim to offer seamless post-sales support to all our clients. Our continuous assistance makes a product's journey uncomplicated and the buyers' experience easy.",
+      "Post-sale customer support is the ongoing assistance activity that Trafficology Logistics INC provides to its customers after they have bought a product. We aim to offer seamless post-sales support to all our clients. Our continuous assistance makes a product's journey uncomplicated and the buyers' experience easy.",
     bullets: [
       "Handling shipments correctly so every operation is organized and ready to go.",
       "Systematically storing shipment/products, which means keeping them safe and easy to find.",
       "The transportation part, where shipment/products are moved smoothly from the factory all the way to the customer's home.",
-      "Reverse logistics, where products that have been sold or delivered come back through the reverse logistics system. Lastmile not only delivers products to customers but also efficiently manages reverse logistics. We help with returning items, handling repairs, and recycling. So, we focus on dealing with returns or any redirection of items with the same attention and care.",
+      "Reverse logistics, where products that have been sold or delivered come back through the reverse logistics system. Trafficology Logistics INC not only delivers products to customers but also efficiently manages reverse logistics. We help with returning items, handling repairs, and recycling — dealing with returns or redirection of items with the same attention and care.",
     ],
   },
 ];

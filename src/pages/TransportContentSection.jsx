@@ -11,10 +11,11 @@ const TransportContentSection = () => {
           another company to handle its logistics and supply chain needs. This
           allows the business to concentrate on its main activities while the
           logistics expert manages the logistics side. 3PL services and
-          facilities often handle freight businesses' warehousing,
-          transportation, and distribution. We are a reliable 3PL provider
-          thanks to our software capabilities, top-notch logistics technology
-          and expertise, increasing efficiency and productivity significantly.
+          facilities often handle warehousing, transportation, and distribution.
+          Trafficology Logistics INC is a reliable 3PL provider, backed by
+          advanced software capabilities, cutting-edge logistics technology, and
+          deep industry expertise — increasing efficiency and productivity
+          significantly.
         </p>
       </div>
 
@@ -23,15 +24,14 @@ const TransportContentSection = () => {
         <h3 className="text-xl font-semibold">4PL (Fourth Party Logistics)</h3>
         <p className="mt-2 text-sm">
           4PL, or Fourth-Party Logistics, refers to a service where the provider
-          manages the entire supply chain for a business from start to end. This
-          is different from 3PL, as Third-party Logistics, which only takes care
-          of certain tasks like shipping products or storing inventory. 4PL
-          takes data from a platform, giving clients full control over every
-          part of the supply chain. Using a 4PL provider can help a business
-          manage its supply chain in one place. It saves everything into one
-          central location, so the business concentrates on its main strengths.
-          If you choose a 4PL team, it can improve your operations through 4PL,
-          even when it’s about contracts and courier costs.
+          manages the entire supply chain for a business from start to finish.
+          Unlike 3PL, which focuses on certain tasks like shipping or inventory
+          management, 4PL offers complete oversight and strategic control of the
+          entire logistics process. Trafficology Logistics INC provides
+          data-driven 4PL solutions that centralize all logistics operations into
+          one unified system — allowing businesses to focus on their core
+          strengths while we optimize contracts, routes, and courier costs for
+          maximum performance.
         </p>
       </div>
 
@@ -39,19 +39,15 @@ const TransportContentSection = () => {
       <div>
         <h3 className="text-xl font-semibold">Freight Forwarding</h3>
         <p className="mt-2 text-sm">
-          We provide complete air shipping solutions for both storing and
-          receiving products globally, ensuring they move quickly and safely.
-          Our service includes booking cargo space, completing shipping
-          paperwork, and tracking GPS to guarantee the fastest arrival of
-          valuable and urgent shipments. We use the latest communication tech to
-          ensure smooth, safe, and reliable shipments. We also assist with
-          duties, taxes, and other rules that apply to your items. For example,
-          our experts have worked with big firms like Chemco Logistics Ltd. in
-          various shipping regions. Combining information, we make customized
-          plans for our clients. This operation is supported by international
-          trade. For greater delivery, we focus on EDI consolidation, ensuring
-          on-time shipments at low cost and within budget. The strategy ensures
-          timely deliveries to global destinations.
+          Trafficology Logistics INC provides comprehensive air, sea, and land
+          freight forwarding solutions for global shipments, ensuring every
+          product moves quickly and securely. Our services include booking cargo
+          space, preparing shipping documentation, and GPS tracking to ensure
+          the fastest arrival of valuable or time-sensitive goods. We also
+          assist with customs duties, taxes, and international regulations to
+          ensure smooth delivery. With years of expertise in international
+          freight management, we design customized shipping plans that guarantee
+          cost-effective, on-time deliveries to destinations worldwide.
         </p>
       </div>
     </div>

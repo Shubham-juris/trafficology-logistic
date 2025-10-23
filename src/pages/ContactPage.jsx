@@ -25,10 +25,10 @@ export default function ContactPage() {
               <div className="p-3 bg-slate-800 rounded-xl">
                 <Phone className="h-5 w-5 text-white" />
               </div>
-              <div>
+              {/* <div>
                 <h4 className="font-semibold text-white">Phone</h4>
                 <p className="text-sm text-slate-300">+1 (800) 555-1234</p>
-              </div>
+              </div> */}
             </div>
 
             <div className="flex items-start gap-4">
@@ -47,7 +47,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-white">Office</h4>
-                <p className="text-sm text-slate-300">Suite 210, Toronto, ON, Canada</p>
+                <p className="text-sm text-slate-300">calgary,Canada</p>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@ export default function ContactPage() {
               </label>
               <input
                 type="text"
-                placeholder="John Doe"
+                placeholder="Name"
                 className="w-full rounded-lg border border-slate-700 bg-slate-900 text-white px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-slate-400"
               />
             </div>
