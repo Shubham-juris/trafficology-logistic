@@ -17,7 +17,9 @@ export default function ContactPage() {
             Get in Touch
           </h2>
           <p className="text-slate-300 mb-6 max-w-md">
-            We’re here to help you with any logistics or supply chain inquiries. Reach out to us for a quote, partnership, or support — our team will respond promptly.
+            We’re here to help you with any logistics or supply chain inquiries.
+            Reach out to us for a quote, partnership, or support — our team will
+            respond promptly.
           </p>
 
           <div className="space-y-5">
@@ -25,10 +27,10 @@ export default function ContactPage() {
               <div className="p-3 bg-slate-800 rounded-xl">
                 <Phone className="h-5 w-5 text-white" />
               </div>
-              {/* <div>
+              <div>
                 <h4 className="font-semibold text-white">Phone</h4>
-                <p className="text-sm text-slate-300">+1 (800) 555-1234</p>
-              </div> */}
+                <p className="text-sm text-slate-300">+1 825-883-1328</p>
+              </div>
             </div>
 
             <div className="flex items-start gap-4">
@@ -37,7 +39,15 @@ export default function ContactPage() {
               </div>
               <div>
                 <h4 className="font-semibold text-white">Email</h4>
-                <p className="text-sm text-slate-300">support@trafficologylogistics.com</p>
+                <p className="text-gray-400">
+                  📧{" "}
+                  <a
+                    href="mailto:trafficologylogisticsinc@gmail.com"
+                    className="text-gray-400 hover:text-blue-400 underline transition-colors duration-200"
+                  >
+                    trafficologylogisticsinc@gmail.com
+                  </a>
+                </p>{" "}
               </div>
             </div>
 
@@ -46,8 +56,8 @@ export default function ContactPage() {
                 <MapPin className="h-5 w-5 text-white" />
               </div>
               <div>
-                <h4 className="font-semibold text-white">Office</h4>
-                <p className="text-sm text-slate-300">calgary,Canada</p>
+                <h4 className="font-semibold text-white">Address</h4>
+                <p className="text-sm text-slate-300">11919 149 Ave SE, Calgary, AB T3S 0A7, Canada</p>
               </div>
             </div>
           </div>
@@ -73,7 +83,9 @@ export default function ContactPage() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.3 }}
         >
-          <h3 className="text-2xl font-semibold mb-6 text-white">Send Us a Message</h3>
+          <h3 className="text-2xl font-semibold mb-6 text-white">
+            Send Us a Message
+          </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
